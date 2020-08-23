@@ -18,7 +18,7 @@
         {{- /* Gitalk Comment System */ -}}
         {{- if $comment.gitalk.enable -}}
             {{- $gitalk := $comment.gitalk -}}
-            <div id="gitalk" class="comment"></div>
+            <div id="gitalk" class="comment">{{ partial "gitalk.html" . }}</div>
             {{- $source := $cdn.gitalkCSS | default "lib/gitalk/gitalk.css" -}}
             {{- dict "source" $source "minify" true "fingerprint" $fingerprint | dict "scratch" $.Scratch "data" | partial "scratch/stylesheet.html" -}}
             {{- $source := $cdn.gitalkJS | default "lib/gitalk/gitalk.min.js" -}}

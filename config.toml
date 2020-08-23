@@ -2,20 +2,20 @@ baseURL = "http://blog.1pwnch.com"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = false
-title = "1pwnch"
+title = "Rafael"
 
 enableEmoji = true
 theme = "LoveIt"
 paginate = 5
 
 [Author]
-    name = "1pwnch"
+    name = "Rafael"
 
 [params]
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "If you are interested in my chinese article, read my first article to contact me :)"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
@@ -33,7 +33,7 @@ paginate = 5
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "LoveIt"
+    title = "Rafael"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -319,11 +319,12 @@ paginate = 5
       # Gitalk comment config
       [params.page.comment.gitalk]
         # 
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "shinmao"
+        admin = "shinmao"
+        repo = "shinmao.github.io"
+        clientId = "bdca5e2ee19179b3d15b"
+        clientSecret = "7da8ea09ee3ff703c125776692d4ade2a076b530"
       # Valine comment config
       [params.page.comment.valine]
         enable = false
