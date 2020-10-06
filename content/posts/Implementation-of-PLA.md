@@ -20,7 +20,7 @@ Here we have ten training sets and one test set. In datasets, we have two featur
 ...
 ```
 According to the dataset, we can formulate our PLA:  
-$$ y = w1*x1 + w2*x2 + bias $$  
+$$ y = w1*x1 + w2*x2 + b $$  
 Now, let's start on program.
 
 ## PLA
