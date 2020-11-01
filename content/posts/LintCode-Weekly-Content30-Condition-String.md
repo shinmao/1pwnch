@@ -13,7 +13,7 @@ I ran into the "Condition String" in weekly contest of LintCode and failed to so
 
 ## Problem Description
 Here I would give the screenshot of challenge:  
-![](../../static/10-31-20/description.png)
+![](/10-31-20/description.png)
 
 ## First solution [Fail]
 First, I tried to handle this problem with **longest increase subarray**. For example, in `acec`  
