@@ -421,8 +421,8 @@ sub-grid的邊長和對應的總和是有**單調性**的！單調在哪呢？�
 using namespace std;
 
 int main() {
-    vector<vector<int>> grid = {{1, 1, 1, 1}, {2, 2, 2, 2}, {3, 3, 3, 3}, {4, 4, 4, 4}};
-    int maxSum = 39;
+    vector<vector<int>> grid = //;
+    int maxSum = //;
 
     int n = grid.size();
     vector<vector<int>> prefix_sum(n, vector<int>(n, 0));
